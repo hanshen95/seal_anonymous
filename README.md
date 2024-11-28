@@ -33,7 +33,6 @@ We give an example on the Llama-3-8b-Instruct model as follows.
 
 
 ## Installation
-
 Create conda environment
 
 ```bash
@@ -41,17 +40,16 @@ conda create -n seal python=3.10
 conda activate seal
 ```
 
-We recommend installing pytorch compatible with your local machine first:
+We recommend installing pytorch compatible with your machine first:
 ```bash
 pip install torch==<your version>
 ```
 
-To install the denpendencies, navigate to the root directory and
+To install other denpendencies, navigate to the root directory and
 ```bash
 pip install -r requirements.txt 
 ```
-
-> The version combination of torch, flash attention, deepspeed and transformers worked on our machine. You can try other version combination as well.
+> torch==2.2.2 is compatible with the package version specified in "requirements.txt" for our machine.
 
 Then install the SEAL 
 ```bash
