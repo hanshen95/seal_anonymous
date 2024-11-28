@@ -41,6 +41,11 @@ conda create -n seal python=3.10
 conda activate seal
 ```
 
+We recommend installing pytorch compatible with your local machine first:
+```bash
+pip install torch==<your version>
+```
+
 To install the denpendencies, navigate to the root directory and
 ```bash
 pip install -r requirements.txt 
